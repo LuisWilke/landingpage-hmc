@@ -2,36 +2,56 @@
     width: 100%;
     display: flex;
     padding: 25px 10%;
-    margin-bottom: 35px;  
-    column-gap: 51px;
+    margin-bottom: 50px;  
+    flex-direction: column;
 }
 
-.contact-title {
-    font-family: var(--ff-m);
-    font-weight: 700;
-    color: var(--black);
-    font-size: 2rem;
+ #contact-title {
+    
+    font-size: 1.6rem;
+    justify-content: center;
+    display: grid;
+    width: auto;
+    
+}
+
+.contact-title-p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-card {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+
 }
 
 .nav-cards {
     display: flex;
-    column-gap: 162px;
-    flex-wrap: wrap;
+    flex-direction: column;
+   
+    margin-top: 2.5rem;
+    
+    width: auto;
 }
 
+
 .nav-title {
-    font-family: var(--ff-m);
+    
     font-weight: 600;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: var(--black);
 
-    margin-bottom: 24px;
+    
 }
 
 .nav-item {
-    font-family: var(--ff-i);
+
     font-weight: 400;
     color: var(--gray);
+    list-style: none;
 
 
     margin-bottom: 12px;

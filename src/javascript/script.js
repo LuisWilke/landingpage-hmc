@@ -34,6 +34,12 @@ $(document).ready(function() {
         $(navItems[activeSectionIndex]).addClass('active');
     });
 
+    // Typed.js
+    var typed = new Typed('.animation', {
+        strings: ["Soluções tecnológicas que elevam o desempenho do seu negócio."],
+        typeSpeed: 55,
+    });
+
     ScrollReveal().reveal('#cta', {
         origin: 'left',
         duration: 2000,
@@ -54,6 +60,12 @@ $(document).ready(function() {
 
     ScrollReveal().reveal('.feedback', {
         origin: 'right',
+        duration: 1000,
+        distance: '20%'
+    })
+
+    ScrollReveal().reveal('.contact', {
+        origin: 'left',
         duration: 1000,
         distance: '20%'
     })
