@@ -69,4 +69,9 @@ $(document).ready(function() {
         duration: 1000,
         distance: '20%'
     })
+    ScrollReveal().reveal('.nav-card', {
+        origin: 'bottom',
+        duration: 2000,
+        distance: '50%'
+    })
 });
