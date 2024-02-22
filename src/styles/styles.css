@@ -51,7 +51,10 @@ section {
     transition: background-color .3s ease;
 }
 
-
+.btn-default a {
+    text-decoration: none;
+    color: #000000ad;
+}
 
 .btn-default:hover {
     background-color: var(--color-primary-3);
