@@ -62,19 +62,10 @@
 #banner img {
     height: 100%;
     width: 70%;
-    border-radius: 60%;
+    border-radius: 40% 30% 0% 20%;
 }
 
-.shape {
-    
-    width: 50%;
-    height: 100%;
-    position: absolute;
-    border-radius: 40% 30% 0% 20%;
-    top: 0;
-    right: 0;
-    z-index: 1;
-}
+
 
 @media screen and (max-width: 1170px) {
     #home {
