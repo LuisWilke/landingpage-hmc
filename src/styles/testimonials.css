@@ -14,13 +14,13 @@
     align-items: center;
     
     min-height: 15vh;
-    margin-bottom: 10rem;
+    margin-bottom: 3rem;
 }
 
 #feedbacks {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 50px;
     margin-bottom: 40px;
     margin-top: 20px;
 }

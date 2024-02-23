@@ -1,6 +1,6 @@
 #home {
     display: flex;
-    min-height: calc(100vh - 91px);
+    min-height: calc(100vh - 90px);
     position: relative;
 }
 
@@ -14,11 +14,11 @@
 
 #cta .title {
     font-size: 4rem;
-    color: var(--color-neutral-1);;
+    color: var(--color-primary-2);;
 }
 
 #cta .title span {
-    color: var(--color-primary-6);
+    color: var(--color-primary-3);
 }
 
 
@@ -33,7 +33,7 @@
 
 #cta_buttons a {
     text-decoration: none;
-    color: var(--color-neutral-1);;
+    color: var(--color-neutral-2);;
 }
 
 #phone_button {
@@ -61,11 +61,12 @@
 
 #banner img {
     height: 100%;
-    width: fit-content;
+    width: 70%;
+    border-radius: 60%;
 }
 
 .shape {
-    background-color: var(--color-primary-2);
+    
     width: 50%;
     height: 100%;
     position: absolute;
