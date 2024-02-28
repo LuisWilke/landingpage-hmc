@@ -42,6 +42,7 @@ header {
 
 #mobile_menu {
     display: none;
+    gap: 1.5rem;
 }
 
 @media screen and (max-width: 1170px) {
