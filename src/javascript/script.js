@@ -75,9 +75,19 @@ $(document).ready(function() {
         duration: 1000,
         distance: '20%'
     })
-    ScrollReveal().reveal('.nav-card', {
+    ScrollReveal().reveal('#nav-card-1', {
         origin: 'bottom',
         duration: 2000,
         distance: '50%'
+    })
+    ScrollReveal().reveal('#nav-card-2', {
+        origin: 'bottom',
+        duration: 2500,
+        distance: '70%'
+    })
+    ScrollReveal().reveal('#nav-card-3', {
+        origin: 'bottom',
+        duration: 3000,
+        distance: '90%'
     })
 });
