@@ -51,6 +51,11 @@ section {
     transition: background-color .3s ease;
 }
 
+.button-links {
+    display: flex;
+    gap: 4rem;
+}
+
 .btn-default a {
     text-decoration: none;
     color: #000000ad;
