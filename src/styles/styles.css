@@ -7,9 +7,9 @@
 @import url('footer.css');
 
 :root {
-    --color-primary-1: #eff1ff;
-    --color-primary-2: #378CE7;
-    --color-primary-3: #5356FF;
+    --color-primary-1: #fffffe;
+    --color-primary-2: #2d334a;
+    --color-primary-3: #836FFF;
     --color-primary-4: #DFF5FF;
     --color-primary-5: #0099ff;
     --color-primary-6: #0071a5;
@@ -58,7 +58,7 @@ section {
 
 .btn-default a {
     text-decoration: none;
-    color: #000000ad;
+    color: #000011;
 }
 
 .btn-default:hover {
