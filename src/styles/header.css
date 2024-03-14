@@ -1,6 +1,6 @@
 header {
     width: 100%;
-    padding: 10px 8%;
+    padding: 5px 5%;
     position: sticky;
     top: 0;
     background-color: var(--color-primary-1);
@@ -11,8 +11,10 @@ header {
 .img-header {
     width: 10%;
     display: flex;
-    max-width: 6rem;
+    max-width: 6.5rem;
     padding: 5px;
+    mix-blend-mode: multiply;
+
 }
 
 #navbar {

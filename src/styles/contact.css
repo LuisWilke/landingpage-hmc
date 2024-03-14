@@ -59,30 +59,13 @@
     margin-bottom: 0.3rem;
 }
 
-@media screen and (max-width: 1170px) {
-    #nav-cards {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .nav-card {
-        width: calc(20% - 5px);
-    }
-}
-
 @media screen and (max-width: 600px) {
-    .nav-card {
-        width: 100%;
-    }
-
-    .nav-card .nav-item {
-        text-align: center;
-    }
-}
-
-@media screen and (max-width: 1170px) {
-    .contact {
+    .nav-cards {
         flex-wrap: wrap;
         justify-content: center;
+    }
+
+    .nav-card {
+        width: calc(60% - 12px);
     }
 }
