@@ -8,11 +8,9 @@
 
 :root {
     --color-primary-1: #fffffe;
-    --color-primary-2: #2d334a;
-    --color-primary-3: #836FFF;
+    --color-primary-2: #200E3A;
+    --color-primary-3: #6246ea;
     --color-primary-4: #DFF5FF;
-    --color-primary-5: #0099ff;
-    --color-primary-6: #0071a5;
 
     --color-neutral-0: #fff;
     --color-neutral-1: #1d1d1d;
@@ -58,11 +56,11 @@ section {
 
 .btn-default a {
     text-decoration: none;
-    color: #000011;
+    color: #fffffe;
 }
 
 .btn-default:hover {
-    background-color: var(--color-primary-4);
+    background-color: #6d5ff5;
 }
 
 .social-media-buttons {

@@ -47,7 +47,7 @@ $(document).ready(function() {
     });
 
     ScrollReveal().reveal('#banner', {
-        origin: 'bottom',
+        origin: 'right',
         duration: 2000,
         distance: '40%'
     });
@@ -76,17 +76,17 @@ $(document).ready(function() {
         distance: '20%'
     })
     ScrollReveal().reveal('#nav-card-1', {
-        origin: 'bottom',
+        origin: 'left',
         duration: 2000,
         distance: '50%'
     })
     ScrollReveal().reveal('#nav-card-2', {
-        origin: 'bottom',
+        origin: 'left',
         duration: 2500,
         distance: '70%'
     })
     ScrollReveal().reveal('#nav-card-3', {
-        origin: 'bottom',
+        origin: 'left',
         duration: 3000,
         distance: '90%'
     })
