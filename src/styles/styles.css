@@ -65,7 +65,7 @@ section {
 
 .social-media-buttons {
     display: flex;
-    gap: 18px;
+    gap: 15px;
 }
 
 .social-media-buttons a {

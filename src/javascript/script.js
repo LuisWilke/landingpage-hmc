@@ -47,7 +47,7 @@ $(document).ready(function() {
     });
 
     ScrollReveal().reveal('#banner', {
-        origin: 'right',
+        origin: 'bottom',
         duration: 2000,
         distance: '40%'
     });

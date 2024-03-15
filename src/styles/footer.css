@@ -4,9 +4,10 @@ footer {
 
 #footer_items {
     display: flex;
-    justify-content: space-between;
-    padding: 0px 8% 24px 8%;
+    justify-content: start;
+    padding: 0px 5% 24px 8%;
     align-items: center;
+    gap: 20px;
 }
 
 #copyright {
