@@ -11,8 +11,8 @@ header {
 .img-header {
     width: 10%;
     display: flex;
-    max-width: 6.5rem;
-    padding: 5px;
+    max-width: 5rem;
+    padding: 2px;
     mix-blend-mode: multiply;
 
 }

@@ -52,6 +52,12 @@ $(document).ready(function() {
         distance: '40%'
     });
 
+    ScrollReveal().reveal('#mid-banner', {
+        origin: 'left',
+        duration: 2000,
+        distance: '40%'
+    });
+
     ScrollReveal().reveal('.dish', {
         origin: 'left',
         duration: 2000,
