@@ -1,10 +1,11 @@
 header {
     width: 100%;
-    padding: 5px 5%;
+    padding: 3px 4%;
     position: sticky;
     top: 0;
     background-color: var(--color-primary-1);
     z-index: 3;
+    
 }
 
 
@@ -14,7 +15,7 @@ header {
     max-width: 5rem;
     padding: 2px;
     mix-blend-mode: multiply;
-
+    
 }
 
 #navbar {
