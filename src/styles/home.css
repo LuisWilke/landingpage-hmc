@@ -68,9 +68,16 @@
 #mid-banner {
     display: flex;
     align-items: start;
-    justify-content: end;
+    justify-content: start;
     width: 50%;
     z-index: 2;
+}
+
+
+#mid-banner img {
+    height: 100%;
+    width: 80%;
+    border-radius: 40% 30% 0% 20%;
 }
 
 #banner img {
@@ -88,6 +95,8 @@
     }
 
     #banner,
+    #mid-banner,
+    #mid-banner img,
     #banner img,
     #home .shape {
         display: none;

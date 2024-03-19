@@ -41,59 +41,34 @@ $(document).ready(function() {
     });
 
     ScrollReveal().reveal('#cta', {
-        origin: 'left',
+        origin: 'top',
         duration: 2000,
-        distance: '20%'
+        distance: '5%'
     });
 
     ScrollReveal().reveal('#banner', {
         origin: 'bottom',
         duration: 2000,
-        distance: '40%'
+        distance: '20%'
+    });
+
+    ScrollReveal().reveal('#dishes', {
+        origin: 'left',
+        duration: 2000,
+        distance: '20%'
     });
 
     ScrollReveal().reveal('#mid-banner', {
-        origin: 'left',
-        duration: 2000,
-        distance: '40%'
-    });
-
-    ScrollReveal().reveal('.dish', {
-        origin: 'left',
+        origin: 'bottom',
         duration: 2000,
         distance: '20%'
     });
 
     ScrollReveal().reveal('#testimonials_content', {
-        origin: 'right',
-        duration: 1000,
-        distance: '20%'
-    })
-
-    ScrollReveal().reveal('.feedback', {
-        origin: 'right',
-        duration: 1000,
-        distance: '20%'
-    })
-
-    ScrollReveal().reveal('.contact', {
-        origin: 'left',
-        duration: 1000,
-        distance: '20%'
-    })
-    ScrollReveal().reveal('#nav-card-1', {
         origin: 'left',
         duration: 2000,
-        distance: '50%'
-    })
-    ScrollReveal().reveal('#nav-card-2', {
-        origin: 'left',
-        duration: 2500,
-        distance: '70%'
-    })
-    ScrollReveal().reveal('#nav-card-3', {
-        origin: 'left',
-        duration: 3000,
-        distance: '90%'
-    })
+        distance: '20%'
+    });
+    
+
 });

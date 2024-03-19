@@ -6,6 +6,28 @@
 @import url('contact.css');
 @import url('footer.css');
 
+
+/* Works on Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #6246ea #ffffff;
+  }
+  
+  /* Works on Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: #fffffe;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: #6246ea;
+    border-radius: 20px;
+    border: 2px solid #fffffe;
+  }
+
 :root {
     --color-primary-1: #fffffe;
     --color-primary-2: #200E3A;
@@ -23,16 +45,16 @@
     box-sizing: border-box;
 }
 
-html {
-    scroll-behavior: smooth;
-}
+
+
 
 body {
     background-color: var(--color-primary-1);
+    
 }
 
 section {
-    padding: 28px 8%;
+    padding: 10px 8%;
 }
 
 .btn-default {
