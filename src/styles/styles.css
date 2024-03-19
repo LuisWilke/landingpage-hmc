@@ -38,6 +38,10 @@
     --color-neutral-1: #1d1d1d;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     font-family: 'Poppins', sans-serif;
     margin: 0;

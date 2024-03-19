@@ -69,6 +69,24 @@ $(document).ready(function() {
         duration: 2000,
         distance: '20%'
     });
+
+    ScrollReveal().reveal('#nav-card-1', {
+        origin: 'bottom',
+        duration: 2000,
+        distance: '20%'
+    });
+
+    ScrollReveal().reveal('#nav-card-2', {
+        origin: 'bottom',
+        duration: 2000,
+        distance: '40%'
+    });
+
+    ScrollReveal().reveal('#nav-card-3', {
+        origin: 'bottom',
+        duration: 2000,
+        distance: '50%'
+    });
     
 
 });
