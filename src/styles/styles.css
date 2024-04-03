@@ -50,8 +50,6 @@ html {
 }
 
 
-
-
 body {
     background-color: var(--color-primary-1);
     
@@ -89,6 +87,15 @@ section {
     background-color: #6d5ff5;
 }
 
+#btn-default-2 {
+    color: #fffffe;
+}
+
+#btn-default-phone {
+    color: black;
+    background-color: #fffffe;
+}
+
 .social-media-buttons {
     display: flex;
     gap: 15px;
@@ -100,11 +107,11 @@ section {
     justify-content: center;
     width: 45px;
     height: 40px;
-    background-color: var(--color-neutral-0);
+    background-color: var(--color-primary-3);
     font-size: 1.25rem;
     border-radius: 10px;
     text-decoration: none;
-    color: var(--color-neutral-1);;
+    color: var(--color-primary-4);;
     box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
     transition: box-shadow .3s ease;
 }
